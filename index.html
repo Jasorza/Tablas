@@ -2,11 +2,122 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Tablas</title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+	<h1>Utilizacion de tabals sencillas</h1>
+
+
+	<table class="T1" border="2" cellspacing="0" cellpadding="7">
+		<tr>
+			<td>Productos</td>
+			<td>Cantidad</td>
+			<td>Prec/Unidad</td>
+			<td>Total</td>
+		</tr>
+		<tr>
+			<td>Marcador</td>
+			<td>200</td> <!--Combinacion de celdas-->
+			<td>200</td>
+			<td>600</td>
+		</tr>
+		<tr>
+			<td>Esfero</td>
+			<td>200</td>
+			<td>400</td>
+			<td>200</td>
+		</tr>
+		<tr>
+			<td>Lapiz</td>
+			<td>200</td>
+			<td>200</td>
+			<td>200</td>	
+		</tr>
+	</table>
+
+<h1>Combinando Columnas</h1>
+	<table class="T2" border="2" cellspacing="0" cellpadding="7">
+		<tr>
+			<td>Productos</td>
+			<td>Cantidad</td>
+			<td>Prec/Unidad</td>
+			<td>Total</td>
+		</tr>
+		<tr>
+			<td>Marcador</td>
+			<td colspan="2">200</td> <!--Combinacion de celdas-->
+			
+			<td>600</td>
+		</tr>
+		<tr>
+			<td colspan="2">Esfero</td>
+			
+			<td colspan="2">50</td>
+			
+		</tr>
+		<tr>
+			<td colspan="4"></td>	
+			
+		</tr>
+	</table>
+<h1>Combinando FILAS</h1>
+
+<table class="T3" border="2" cellspacing="0" cellpadding="7">
+		<tr>
+			<td>Productos</td>
+			<td>Cantidad</td>
+			<td>Prec/Unidad</td>
+			<td>Total</td>
+		</tr>
+		<tr>
+			<td>Marcador</td>
+			<td rowspan="2">200</td> <!--Combinacion de filas-->
+			<td>200</td>
+			<td rowspan="4">600</td>
+		</tr>
+		<tr>
+			<td>Esfero</td>
+			<td>200</td>
+			<
+		</tr>
+		<tr>
+			<td>Lapiz</td>
+			<td>50</td>
+			<td>50</td>
+			
+		</tr>
+	</table>
 	
+<h1></h1>
+
+	<table border="5" cellspacing="0" cellpadding="4">
+		<tr>
+			<th>Plotter</th>
+			<th>Tabliode</th>
+			<th>Laser</th>
+			<th>Corte</th>
+		</tr>
+		<tr>
+			<td>4000</td>
+			<td>20000</td>
+			<td>5000</td>
+			<td>6000</td>
+		</tr>
+		<tr>
+			<td>50000</td>
+			<td>100000</td>
+			<td>150000</td>
+			<td>200000</td>
+		</tr>
+	</table>
 </body>
 </html>
+
+
+<!-- <table>  (tablas)
+	 <tr> - filas
+	 <td> - columnas
+	 <th> - titulo Cabezera	
+	 	table>tr*3>td*4 
